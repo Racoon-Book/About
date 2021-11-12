@@ -1,0 +1,20 @@
+[book]
+title = "浣熊财记"
+authors = ["浣熊财记团队"]
+description = "浣熊财记团队"
+src = "src"
+language = "zh-cn"
+multilingual = false
+
+[output.html]
+default-theme = "Ayu"
+preferred-dark-theme = "Ayu"
+no-section-label = true
+git-repository-url = "https://github.com/Racoon-Book/About"
+git-repository-icon = "fa-github"
+
+[output.html.print]
+enable = false
+
+[output.html.search]
+enable = false
