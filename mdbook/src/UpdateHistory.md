@@ -1,9 +1,17 @@
 # 浣熊财记 更新日志
 
 - [浣熊财记 更新日志](#浣熊财记-更新日志)
+  - [v1.0.3 (106)](#v103-106)
   - [v1.0.2 (103)](#v102-103)
   - [v1.0.1 (102)](#v101-102)
   - [v1.0.0 (100)](#v100-100)
+
+## v1.0.3 (106)
+
+* 修改了 App Store 的显示语言为简体中文
+  * change `Development Language` from `English` to `Chinese`
+* 纠正了关于页面错误的信息
+  * fix inaccurate name in `AboutSideMenu`
 
 ## v1.0.2 (103)
 
