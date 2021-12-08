@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="UpdateHistory.html">更新日志</a></li><li class="chapter-item expanded affix "><a href="Agreements.html">用户协议</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Introduction.html">介绍</a></li><li class="chapter-item expanded affix "><a href="Poster.html">海报</a></li><li class="chapter-item expanded affix "><a href="UpdateHistory.html">更新日志</a></li><li class="chapter-item expanded affix "><a href="Agreements.html">用户协议</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -150,15 +150,69 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#浣熊财记-更新日志" id="浣熊财记-更新日志">浣熊财记 更新日志</a></h1>
+                        <h1><a class="header" href="#浣熊财记-介绍" id="浣熊财记-介绍">浣熊财记 介绍</a></h1>
+<h1><a class="header" href="#浣熊财记-海报" id="浣熊财记-海报">浣熊财记 海报</a></h1>
+<p><img src="./images/poster.png" alt="" /></p>
+<h1><a class="header" href="#浣熊财记-更新日志" id="浣熊财记-更新日志">浣熊财记 更新日志</a></h1>
+<blockquote>
+<p>浣熊财记更新日志</p>
+<p>注：英文部分为开发者备注</p>
+</blockquote>
 <ul>
 <li><a href="UpdateHistory.html#%E6%B5%A3%E7%86%8A%E8%B4%A2%E8%AE%B0-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97">浣熊财记 更新日志</a>
 <ul>
+<li><a href="UpdateHistory.html#v11-111">v.1.1. (111)</a></li>
 <li><a href="UpdateHistory.html#v105-109">v1.0.5 (109)</a></li>
 <li><a href="UpdateHistory.html#v103-106">v1.0.3 (106)</a></li>
 <li><a href="UpdateHistory.html#v102-103">v1.0.2 (103)</a></li>
 <li><a href="UpdateHistory.html#v101-102">v1.0.1 (102)</a></li>
 <li><a href="UpdateHistory.html#v100-100">v1.0.0 (100)</a></li>
+</ul>
+</li>
+</ul>
+<h2><a class="header" href="#v11-111" id="v11-111">v.1.1. (111)</a></h2>
+<ul>
+<li>优化日期的处理
+<ul>
+<li>添加和修改财记时可以选择日期
+<ul>
+<li>added <code>DatePicker</code> in <code>ExpenseSheet</code></li>
+</ul>
+</li>
+<li>重构了日期的处理
+<ul>
+<li>removed <code>DateInRegion</code> and use <code>Date</code> instead</li>
+</ul>
+</li>
+<li>更好的支持了语音添加之前（昨天/上周/上个月）的账目
+<ul>
+<li>fixed bugs in <code>OriginalText2SpentAt()</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>优化界面UI
+<ul>
+<li>添加了语音输入时主页的模糊效果
+<ul>
+<li>added blur in <code>BookTab</code></li>
+</ul>
+</li>
+<li>美化了统计界面上方的选择窗口
+<ul>
+<li>added padding above <code>SegmentPicker</code> in <code>ReportTab</code></li>
+</ul>
+</li>
+<li>优化了统计界面的计数
+<ul>
+<li>fixed logic bug in <code>StoryReportView</code> and added one more item</li>
+</ul>
+</li>
+<li>增大了语音输入的确认按钮
+<ul>
+<li>made buttons in <code>VoiceInputView</code> larger</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
