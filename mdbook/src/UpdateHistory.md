@@ -1,11 +1,35 @@
 # 浣熊财记 更新日志
 
+> 浣熊财记更新日志
+> 
+> 注：英文部分为开发者备注
+
 - [浣熊财记 更新日志](#浣熊财记-更新日志)
+  - [v.1.1. (111)](#v11-111)
   - [v1.0.5 (109)](#v105-109)
   - [v1.0.3 (106)](#v103-106)
   - [v1.0.2 (103)](#v102-103)
   - [v1.0.1 (102)](#v101-102)
   - [v1.0.0 (100)](#v100-100)
+
+## v.1.1. (111)
+
+* 优化日期的处理
+  * 添加和修改财记时可以选择日期
+    * added `DatePicker` in `ExpenseSheet`
+  * 重构了日期的处理
+    * removed `DateInRegion` and use `Date` instead
+  * 更好的支持了语音添加之前（昨天/上周/上个月）的账目
+    * fixed bugs in `OriginalText2SpentAt()`
+* 优化界面UI
+  * 添加了语音输入时主页的模糊效果
+    * added blur in `BookTab`
+  * 美化了统计界面上方的选择窗口
+    * added padding above `SegmentPicker` in `ReportTab`
+  * 优化了统计界面的计数
+    * fixed logic bug in `StoryReportView` and added one more item
+  * 增大了语音输入的确认按钮
+    * made buttons in `VoiceInputView` larger
 
 ## v1.0.5 (109)
 
