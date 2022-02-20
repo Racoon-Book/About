@@ -1,6 +1,6 @@
 # 浣熊财记 介绍
 
-![](images/icon.png)
+<img src="images/icon.png" style="zoom:10%"/>
 
 中国高校计算机大赛 第六届移动应用创新赛 国赛二等奖作品
 
